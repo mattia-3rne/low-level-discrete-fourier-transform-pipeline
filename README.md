@@ -141,7 +141,7 @@ F^{-1} = \frac{1}{N} F^H
 $$
 
 **Element-wise Definition**
-While the forward matrix $F$ uses negative exponents, the conjugate transpose $F^H$ utilizes complex conjugates (positive exponents). The reconstruction structure becomes:
+While the forward matrix $F$ uses negative exponents, the conjugate transpose $F^H$ utilizes complex conjugates and thus positive exponents. The reconstruction structure becomes:
 
 $$
 \mathbf{x}[n] = \frac{1}{N} \sum_{k=0}^{N-1} X[k] \cdot e^{i \frac{2\pi}{N} k n}
