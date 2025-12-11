@@ -108,7 +108,7 @@ $$
 The element in the $j$-th row and $k$-th column of the matrix $F$ is given by the power of the fundamental root of unity:
 
 $$
-F_{j,k} = \omega_N^{j \cdot k} = e^{-i \frac{2\pi}{N} j k}
+F_{j,k} = \omega_N^{j k} = e^{-i \frac{2\pi}{N} j k}
 $$
 
 **Symmetry and Nyquist Frequency**
