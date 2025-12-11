@@ -123,7 +123,7 @@ $$
 **Theoretical Approach**
 In the final stage, we transform the processed frequency-domain data back into the time domain via **Signal Reconstruction**.
 
-The goal is to take the filtered spectral coefficients and compute the corresponding time-domain signal. Because the DFT is a bijective mapping, this operation is perfectly invertible. However, since coefficients were modified via thresholding, the reconstructed signal $\mathbf{\hat{x}}$ will be a denoised approximation of the original input.
+The goal is to take the filtered spectral coefficients and compute the corresponding time-domain signal. Because the DFT is a bijective mapping, this operation is perfectly invertible. However, since coefficients were modified via thresholding, the reconstructed signal will be a denoised approximation of the original input.
 
 
 **Mathematical Formulation**
