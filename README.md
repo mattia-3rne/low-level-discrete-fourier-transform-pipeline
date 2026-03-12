@@ -1,6 +1,6 @@
 # Low-Level Discrete Fourier Transform Pipeline
 
-## 📊 Project Overview
+## Project Overview
 
 The goal of this project is to demystify the **Discrete Fourier Transform (DFT)** by implementing it from scratch using a fundamental Linear Algebra approach, rather than relying on optimized "black box" FFT libraries.
 
@@ -9,7 +9,7 @@ This project implements a complete signal processing pipeline across three disti
 
 ---
 
-## 🧠 Theoretical Background
+## Theoretical Background
 
 ### The Linear Algebra Formulation
 
@@ -149,7 +149,7 @@ $$
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 | Limitation | Description |
 | :--- |:---|
@@ -159,7 +159,7 @@ $$
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Python 3.8+
@@ -185,7 +185,7 @@ $$
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * `signal_generation.ipynb`: Generating synthetic noisy signals.
 * `spectral_analysis.ipynb`: Performing DFT from scratch.
